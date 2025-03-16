@@ -34,8 +34,16 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Untitled.swift,
 			);
 			target = 0E82B7CF2D86A3FD001B353D /* FetchMobileHomeProject */;
+		};
+		0E82B8062D86A52D001B353D /* Exceptions for "FetchMobileHomeProjectTests" folder in "FetchMobileHomeProjectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = 0E82B7E52D86A3FF001B353D /* FetchMobileHomeProjectTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -50,6 +58,9 @@
 		};
 		0E82B7E92D86A3FF001B353D /* FetchMobileHomeProjectTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0E82B8062D86A52D001B353D /* Exceptions for "FetchMobileHomeProjectTests" folder in "FetchMobileHomeProjectTests" target */,
+			);
 			path = FetchMobileHomeProjectTests;
 			sourceTree = "<group>";
 		};
